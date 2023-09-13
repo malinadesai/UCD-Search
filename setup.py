@@ -6,6 +6,16 @@ if python_version < (3, 8):
     sys.exit("Python < 3.8 is not supported, please install version 3.8.0 or higher.")
 print("Confirmed Python version {}.{}.{} >= 3.8.0".format(*python_version[:3]))
 
+# get the required package names
+def get_requirements(kind=None):
+    if kind is None:
+        fname = "requirements.txt"
+    else:
+        fname = f"{kind}_requirements.txt"
+    with open(fname, "r") as ff:
+        requirements = ff.readlines()
+    return requirements
+
 setup(
     name='UCD-Search',
     version='1.0',
@@ -13,6 +23,7 @@ setup(
     author='Malina Desai'
     author_email='mmdesai@mit.edu'
     packages=find_packages()
+    install_requires=get_requirements()
 )
 
 
