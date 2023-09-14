@@ -9,7 +9,7 @@ First, clone the repository in your terminal using:
 git clone https://github.com/malinadesai/UCD-Search
 ```
 
-To make full use of the data provided in this code, an Astro Data Lab login is required. Follow the instructions to create an account at: https://datalab.noirlab.edu/account/login.html. 
+To make full use of the data provided in this code, an Astro Data Lab login is required. Follow the instructions to create an account at: https://datalab.noirlab.edu/account/login.html. If you wish to access data from the deep sky surveys, you must run these notebooks in Astro Data Lab's jupyter server. For convenience, the training, testing, and validation data are located in the `data` folder and can be used and accessed without an account. 
 
 The required package dependencies are located in the `requirements.txt` file and can be installed through the `setup.py` script by running the following:
 
