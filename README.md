@@ -9,17 +9,9 @@ First, fork the UCD-Search repository. Then, clone the repository in your termin
 git clone https://github.com/your_username/UCD-Search
 ```
 
-If you would like to install dependencies using a virtual environment, you can create one using the following code:
+To make full use of the data provided in this code, an Astro Data Lab login is required. Follow the instructions to create an account at: https://datalab.noirlab.edu/account/login.html. 
 
-```
-conda create --name ucd_env python=3.10
-conda activate ucd_env
-```
-
-and deactivate the environment by using 
-```
-conda deactivate
-```
+The required package dependencies are located in the `requirements.txt` file and can be installed through the `setup.py` script. 
 
 
 
