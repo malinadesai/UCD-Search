@@ -3,10 +3,10 @@ This is a collection of Jupyter Notebooks that aim to create a UCD sample from d
 
 ### Installation Guide
 To install and test these random forest models, follow the steps below.
-First, fork the UCD-Search repository. Then, clone the repository in your terminal using:
+First, clone the repository in your terminal using:
 
 ```
-git clone https://github.com/your_username/UCD-Search
+git clone https://github.com/malinadesai/UCD-Search
 ```
 
 To make full use of the data provided in this code, an Astro Data Lab login is required. Follow the instructions to create an account at: https://datalab.noirlab.edu/account/login.html. 
